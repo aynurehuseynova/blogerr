@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    .alldivlist {
+        justify-content: flex-end;
+
+        li {
+            a {
+                color: black;
+                font-weight: 600;
+                font-size: 16px;
+                font-family: "Poppins", sans-serif;
+
+                &:hover {
+                    color: #69B4FD;
+                }
+            }
+        }
+
+    }
+}
+
+// section 1
+#aDiscountTonerCartridge {
+    background-image: url(https://preview.colorlib.com/theme/blogger/img/header-bg.jpg);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+
+    .containerdiv {
+        padding-top: 20px;
+
+        .divtextmainsection {
+            width: 500px;
+            color: white;
+        }
+
+        .commentsLikes {
+            margin-top: 20%;
+
+            span {
+                padding: 20px;
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+
+        .divtextname {
+            margin-top: 10px;
+        }
+
+        .mark-wiens {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding-top: 70px;
+            height: auto;
+
+            .name {
+                margin-bottom: 0;
+                color: white;
+                font-weight: 900;
+            }
+
+        }
+    }
+
+}
+
+// section 2
+#latestNewsfromallcategories {
+    .cart {
+        padding-top: 20px;
+        margin-top: 20px;
+
+        .latestNewsfromallcategoriesdiv {
+            text-align: center;
+            height: 200px;
+
+            h4 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            p {
+                width: 600px;
+                color: #A7A9A7;
+                text-align: center;
+                margin: auto;
+            }
+        }
+
+        .town {
+            p {
+                font-size: 17px;
+                font-weight: 800;
+            }
+
+            .data {
+                text-align: center;
+                font-weight: 100;
+                margin-top: 20px;
+                background-color: black;
+                color: white;
+                width: 100px;
+
+            }
+        }
+
+    }
+}
+
+// section 3
+#travelSection {
+    position: relative;
+    top: 200px;
+    background-color: #F9F9FF;
+    height: 750px;
+
+    .topics {
+        h3 {
+            font-size: 38px;
+            text-align: center;
+        }
+
+        p {
+            width: 600px;
+            color: #A7A9A7;
+            text-align: center;
+            margin: auto;
+
+        }
+    }
+
+    .coldivall {
+        display: flex;
+        gap: 20px;
+
+        .divimgperson {
+            img {
+                position: absolute;
+                gap: 20px;
+
+            }
+
+            .divblackbox {
+                background-color: black;
+                height: 70px;
+                width: 60px;
+                position: relative;
+
+                p {
+                    margin-left: 10px;
+                    color: white;
+                    width: 20px;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .divtextproblems {
+            gap: 20px;
+            padding-top: 20px;
+        }
+    }
+
+    .coldivallgirl {
+        position: absolute;
+        top: 140px;
+        display: flex;
+        gap: 20px;
+
+        .divimgperson {
+            img {
+                position: absolute;
+                gap: 20px;
+
+            }
+
+            .divblackbox {
+                background-color: black;
+                height: 70px;
+                width: 60px;
+                position: relative;
+
+                p {
+                    margin-left: 10px;
+                    color: white;
+                    width: 20px;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .divtextproblems {
+            gap: 20px;
+            padding-top: 20px;
+
+            .p {
+                color: #A7A9A7;
+            }
+        }
+    }
+
+    .divbuttonsection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+
+        button {
+            border-radius: 40px;
+            border-color: rgb(68, 68, 232);
+            height: 45px;
+            width: 150px;
+            color: #F9F9FF;
+            background-color: #7C9AFE;
+            font-weight: 700;
+            font-size: 13px;
+
+            &:hover {
+                color: #3584d3;
+                background-color: white;
+            }
+        }
+    }
+
+}
+
+// section 4
+#fashionNewsThisWeek {
+    position: relative;
+    top: 350px;
+
+    .cart {
+        padding-top: 20px;
+        margin-top: 20px;
+
+        .fashionNewsThisWeek {
+            text-align: center;
+            height: 200px;
+
+            h4 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            p {
+                width: 600px;
+                color: #A7A9A7;
+                text-align: center;
+                margin: auto;
+
+            }
+        }
+    }
+
+    .fashion {
+        p {
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .data {
+            text-align: center;
+            font-weight: 100;
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+            width: 100px;
+
+        }
+
+        .p {
+            color: #A7A9A7;
+        }
+
+        .commentsLikes {
+            color: #A7A9A7;
+        }
+    }
+
+    .divbuttonsection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+
+        button {
+            border-radius: 40px;
+            border-color: rgb(68, 68, 232);
+            height: 45px;
+            width: 150px;
+            color: #F9F9FF;
+            background-color: #7C9AFE;
+            font-weight: 700;
+            font-size: 13px;
+
+            &:hover {
+                color: #3584d3;
+                background-color: white;
+            }
+        }
+    }
+
+}
+
+// section5
+#about-Blogger-Team {
+    background-color: #F8F8FE;
+    height: 750px;
+    position: relative;
+    top: 500px;
+
+    .cart {
+        height: 200px;
+
+        .about-Blogger-Teamheader {
+            text-align: center;
+            height: 200px;
+
+            h2 {
+                font-size: 45px;
+                text-align: center;
+            }
+
+            p {
+                width: 600px;
+                color: #A7A9A7;
+                text-align: center;
+                margin: auto;
+
+            }
+        }
+
+        .about-Blogger {
+            padding-top: 20px;
+            margin-top: 20px;
+            color: #A7A9A7;
+        }
+
+        .blogger {
+            text-align: center;
+
+            .name {
+                padding-top: 20px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .p {
+                color: #A7A9A7;
+            }
+        }
+    }
+}
+
+// footer
+footer {
+    position: relative;
+    top: 500px;
+    background-color:#222222;
+    height: 500px;
+
+    .cart {
+        padding-top: 50px;
+
+        .top-Products {
+            color: white;
+
+            h6 {
+                font-size: 20px
+            }
+
+            p {
+                height: 20px;
+            }
+        }
+
+        .newsletter {
+            h6 {
+                font-size: 20px
+            }
+        }
+
+        .newsletter {
+            color: white;
+
+            h6 {
+                font-size: 20px;
+            }
+
+            p {
+                height: 80px;
+            }
+
+            input {
+                height: 40px;
+                width: 300px;
+                border-radius: 40px;
+                border-style: none;
+                padding-left: 15px;
+            }
+
+            button {
+                height: 40px;
+                width: 130px;
+                border-radius: 40px;
+                color: white;
+                background-color: #69B4FD;
+            }
+        }
+
+        .instragram-Feed {
+            p{
+                font-size: 20px;
+                color: white;
+                padding-left: 15px;
+            }
+        }
+        
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+.textdivcolorlib{
+    p{
+        color:#A7A9A7;
+        padding-top: 30px;
+    }
+}
+.iconfacebook{
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    a{
+        background-color: black;
+        height: 30px;
+        width: 30px;
+        display: inline-table;
+       gap: 20px;
+       &:hover{
+        background-color: #69B4FD;
+       }
+       i{
+        display: flex;
+        justify-content: center;
+        padding-top: 6px;
+       }
+    }
+}
+    }
+}

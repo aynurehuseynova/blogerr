@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .alldivlist {
+  justify-content: flex-end;
+}
+nav .alldivlist li a {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+nav .alldivlist li a:hover {
+  color: #69B4FD;
+}
+
+#aDiscountTonerCartridge {
+  background-image: url(https://preview.colorlib.com/theme/blogger/img/header-bg.jpg);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+}
+#aDiscountTonerCartridge .containerdiv {
+  padding-top: 20px;
+}
+#aDiscountTonerCartridge .containerdiv .divtextmainsection {
+  width: 500px;
+  color: white;
+}
+#aDiscountTonerCartridge .containerdiv .commentsLikes {
+  margin-top: 20%;
+}
+#aDiscountTonerCartridge .containerdiv .commentsLikes span {
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+#aDiscountTonerCartridge .containerdiv .divtextname {
+  margin-top: 10px;
+}
+#aDiscountTonerCartridge .containerdiv .mark-wiens {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 70px;
+  height: auto;
+}
+#aDiscountTonerCartridge .containerdiv .mark-wiens .name {
+  margin-bottom: 0;
+  color: white;
+  font-weight: 900;
+}
+
+#latestNewsfromallcategories .cart {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+#latestNewsfromallcategories .cart .latestNewsfromallcategoriesdiv {
+  text-align: center;
+  height: 200px;
+}
+#latestNewsfromallcategories .cart .latestNewsfromallcategoriesdiv h4 {
+  font-size: 40px;
+  text-align: center;
+}
+#latestNewsfromallcategories .cart .latestNewsfromallcategoriesdiv p {
+  width: 600px;
+  color: #A7A9A7;
+  text-align: center;
+  margin: auto;
+}
+#latestNewsfromallcategories .cart .town p {
+  font-size: 17px;
+  font-weight: 800;
+}
+#latestNewsfromallcategories .cart .town .data {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  width: 100px;
+}
+
+#travelSection {
+  position: relative;
+  top: 200px;
+  background-color: #F9F9FF;
+  height: 750px;
+}
+#travelSection .topics h3 {
+  font-size: 38px;
+  text-align: center;
+}
+#travelSection .topics p {
+  width: 600px;
+  color: #A7A9A7;
+  text-align: center;
+  margin: auto;
+}
+#travelSection .coldivall {
+  display: flex;
+  gap: 20px;
+}
+#travelSection .coldivall .divimgperson img {
+  position: absolute;
+  gap: 20px;
+}
+#travelSection .coldivall .divimgperson .divblackbox {
+  background-color: black;
+  height: 70px;
+  width: 60px;
+  position: relative;
+}
+#travelSection .coldivall .divimgperson .divblackbox p {
+  margin-left: 10px;
+  color: white;
+  width: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#travelSection .coldivall .divtextproblems {
+  gap: 20px;
+  padding-top: 20px;
+}
+#travelSection .coldivallgirl {
+  position: absolute;
+  top: 140px;
+  display: flex;
+  gap: 20px;
+}
+#travelSection .coldivallgirl .divimgperson img {
+  position: absolute;
+  gap: 20px;
+}
+#travelSection .coldivallgirl .divimgperson .divblackbox {
+  background-color: black;
+  height: 70px;
+  width: 60px;
+  position: relative;
+}
+#travelSection .coldivallgirl .divimgperson .divblackbox p {
+  margin-left: 10px;
+  color: white;
+  width: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#travelSection .coldivallgirl .divtextproblems {
+  gap: 20px;
+  padding-top: 20px;
+}
+#travelSection .coldivallgirl .divtextproblems .p {
+  color: #A7A9A7;
+}
+#travelSection .divbuttonsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+#travelSection .divbuttonsection button {
+  border-radius: 40px;
+  border-color: rgb(68, 68, 232);
+  height: 45px;
+  width: 150px;
+  color: #F9F9FF;
+  background-color: #7C9AFE;
+  font-weight: 700;
+  font-size: 13px;
+}
+#travelSection .divbuttonsection button:hover {
+  color: #3584d3;
+  background-color: white;
+}
+
+#fashionNewsThisWeek {
+  position: relative;
+  top: 350px;
+}
+#fashionNewsThisWeek .cart {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+#fashionNewsThisWeek .cart .fashionNewsThisWeek {
+  text-align: center;
+  height: 200px;
+}
+#fashionNewsThisWeek .cart .fashionNewsThisWeek h4 {
+  font-size: 40px;
+  text-align: center;
+}
+#fashionNewsThisWeek .cart .fashionNewsThisWeek p {
+  width: 600px;
+  color: #A7A9A7;
+  text-align: center;
+  margin: auto;
+}
+#fashionNewsThisWeek .fashion p {
+  font-size: 17px;
+  font-weight: 600;
+}
+#fashionNewsThisWeek .fashion .data {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  width: 100px;
+}
+#fashionNewsThisWeek .fashion .p {
+  color: #A7A9A7;
+}
+#fashionNewsThisWeek .fashion .commentsLikes {
+  color: #A7A9A7;
+}
+#fashionNewsThisWeek .divbuttonsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+#fashionNewsThisWeek .divbuttonsection button {
+  border-radius: 40px;
+  border-color: rgb(68, 68, 232);
+  height: 45px;
+  width: 150px;
+  color: #F9F9FF;
+  background-color: #7C9AFE;
+  font-weight: 700;
+  font-size: 13px;
+}
+#fashionNewsThisWeek .divbuttonsection button:hover {
+  color: #3584d3;
+  background-color: white;
+}
+
+#about-Blogger-Team {
+  background-color: #F8F8FE;
+  height: 750px;
+  position: relative;
+  top: 500px;
+}
+#about-Blogger-Team .cart {
+  height: 200px;
+}
+#about-Blogger-Team .cart .about-Blogger-Teamheader {
+  text-align: center;
+  height: 200px;
+}
+#about-Blogger-Team .cart .about-Blogger-Teamheader h2 {
+  font-size: 45px;
+  text-align: center;
+}
+#about-Blogger-Team .cart .about-Blogger-Teamheader p {
+  width: 600px;
+  color: #A7A9A7;
+  text-align: center;
+  margin: auto;
+}
+#about-Blogger-Team .cart .about-Blogger {
+  padding-top: 20px;
+  margin-top: 20px;
+  color: #A7A9A7;
+}
+#about-Blogger-Team .cart .blogger {
+  text-align: center;
+}
+#about-Blogger-Team .cart .blogger .name {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#about-Blogger-Team .cart .blogger .p {
+  color: #A7A9A7;
+}
+
+footer {
+  position: relative;
+  top: 500px;
+  background-color: #222222;
+  height: 500px;
+}
+footer .cart {
+  padding-top: 50px;
+}
+footer .cart .top-Products {
+  color: white;
+}
+footer .cart .top-Products h6 {
+  font-size: 20px;
+}
+footer .cart .top-Products p {
+  height: 20px;
+}
+footer .cart .newsletter h6 {
+  font-size: 20px;
+}
+footer .cart .newsletter {
+  color: white;
+}
+footer .cart .newsletter h6 {
+  font-size: 20px;
+}
+footer .cart .newsletter p {
+  height: 80px;
+}
+footer .cart .newsletter input {
+  height: 40px;
+  width: 300px;
+  border-radius: 40px;
+  border-style: none;
+  padding-left: 15px;
+}
+footer .cart .newsletter button {
+  height: 40px;
+  width: 130px;
+  border-radius: 40px;
+  color: white;
+  background-color: #69B4FD;
+}
+footer .cart .instragram-Feed p {
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+}
+footer .cart ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+footer .cart .textdivcolorlib p {
+  color: #A7A9A7;
+  padding-top: 30px;
+}
+footer .cart .iconfacebook {
+  padding-top: 20px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+footer .cart .iconfacebook a {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  display: inline-table;
+  gap: 20px;
+}
+footer .cart .iconfacebook a:hover {
+  background-color: #69B4FD;
+}
+footer .cart .iconfacebook a i {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
